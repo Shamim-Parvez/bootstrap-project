@@ -1,0 +1,39 @@
+
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1cm; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/Jhuleka.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/makeka.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/rabaya.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+
+  .carousel-inner h5 {
+    font-size: 2.5rem; } }
+@media (max-width: 480px) {
+  .carousel-inner h5 {
+    font-size: 2rem; } }
+
+/*# sourceMappingURL=style.css.map */
